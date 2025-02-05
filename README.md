@@ -58,9 +58,10 @@ ERC20 Token Transfer
 pythonCopyfrom lit_erc20_transfer import LitERC20Transfer
 ```
 # Initialize transfer client
+```bash
 transfer_client = LitERC20Transfer(network="datil-dev")
 transfer_client.connect()
-
+```
 # Execute transfer
 result = transfer_client.execute_transfer(
     pkp_eth_address="0xYourPKPAddress",
